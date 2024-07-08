@@ -1,0 +1,26 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+  --border: #204ecf;
+  --background: #83a5f2;
+  --error: #f26749;
+  --main-background: #fcded6;
+  --header-background: #f9a197;
+  --card-background: rgba(131,165,242,0.6);
+  --title: rgba(248, 249, 244, 0.8);
+}
+
+body {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-width: 100%;
+  min-height: 100vh;
+}
